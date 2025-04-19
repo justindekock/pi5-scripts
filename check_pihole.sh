@@ -11,7 +11,6 @@ else
 sudo systemctl start pihole-FTL.service 
 
 echo "Pi-Hole was inactive. The service has been started." 
-# | mail -s "Pi-Hole was inactive" jdekock17@gmail.com;
 fi
 
 sudo rm -f output.txt
